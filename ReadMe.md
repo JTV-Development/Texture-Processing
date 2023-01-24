@@ -3,6 +3,8 @@
 This script will take a folder of .glb assets, strip them of their images/textures, and output the new .glbs into a folder along with all of those images. 
 
 ## Running the program
+Firsly, run `npm install` (use nodeJs version 16 or higher)
+
 
 In the command line you can run as 
 ```shell
