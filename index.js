@@ -6,8 +6,8 @@ const fs = require('fs')
 
 
 const args = minimist(process.argv.slice(2));
-const inputDirectory = args.inputFolder;
-let outputDirectory = args.outputFolder;
+const inputDirectory = args.inputFolder ?? args.i;
+let outputDirectory = args.outputFolder ?? args.o;
 
 if(outputDirectory){
     if (!fs.existsSync(outputDirectory)) {
